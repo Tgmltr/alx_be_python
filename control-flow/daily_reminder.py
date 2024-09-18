@@ -6,11 +6,11 @@ while True:
 
     match priority :
         case "high":
-            Reminder = "reminder:" + task + " is a high priority task "
+            Reminder =  task + " is a high priority task "
         case "medium":
-            Reminder = "reminder: "+task+" is a medium priority task "
+            Reminder =  task+" is a medium priority task "
         case "low":
-            Reminder = "reminder: " + task + " is a low priority task "
+            Reminder =  task + " is a low priority task "
         case _: message = f"priority not defined "
         
     if time_bound =="yes":
@@ -18,4 +18,4 @@ while True:
     elif time_bound =="no":
         Reminder += ". Consider completing it when you have free time."
         
-    print(f"{Reminder}")
+    print("Reminder: " + Reminder)
