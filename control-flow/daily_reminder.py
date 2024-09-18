@@ -18,4 +18,4 @@ while True:
     elif time_bound =="no":
         Reminder += ". Consider completing it when you have free time."
         
-    print('\n',Reminder)
+    print("\n" + Reminder)
