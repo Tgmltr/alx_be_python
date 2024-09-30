@@ -3,6 +3,6 @@ def perform_operation(num1, num2, operation):
     elif operation =="subtract": return num1-num2
     elif operation =="multiply": return num1*num2
     elif operation =="divide":
-        if num2 == 0 : print("Error")
+        if num2 == 0: print("Error")
         else : return num1/num2
 
