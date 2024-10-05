@@ -1,7 +1,6 @@
 class BankAccount:
     def __init__(self, account_ballance):
         self.account_ballance = account_ballance
-        #self.account_ballance=0
 
     def deposit(self,amount):
         self.account_ballance += amount
@@ -13,4 +12,4 @@ class BankAccount:
         else: return False
 
     def display_balance(self):
-        print("Current Balance:",self.account_ballance)
+        print(f"Current Balance: ${float(self.account_ballance)}")
